@@ -48,5 +48,10 @@ public class DataPoint {
     public void setType(String type) {
         this.type = type;
     }
+
+    public String toString(){
+        String strung = "[" + getf1() + ", " + getf2() + ", " + getLabel() + ", " + getType() + "]";
+        return strung;
+    }
 }
 
